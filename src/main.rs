@@ -9,9 +9,6 @@ struct Args {
     /// script to run
     #[arg(short, long)]
     file: String,
-
-    #[arg(short, long, default_value = "work")]
-    mode: String,
 }
 
 fn main() {
